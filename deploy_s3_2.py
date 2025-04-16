@@ -79,7 +79,7 @@ Resources:
 cf_client = boto3.client('cloudformation', region_name='us-east-1')
 
 # Create the CloudFormation stack
-stack_name = "demos3"
+stack_name = "newdemo"
 cf_client.create_stack(
     StackName=stack_name,
     TemplateBody=cloudformation_template,
